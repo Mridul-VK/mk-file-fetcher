@@ -1,6 +1,6 @@
 {
   "name": "mk-file-fetcher",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple yet powerful package that helps to fetch all the files of a given type from a given folder no matter how many folders you make inside that",
   "main": "lib/index.js",
   "scripts": {
