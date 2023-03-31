@@ -1,77 +1,76 @@
 {
-    "image": "mcr.microsoft.com/devcontainers/universal:2",
-    "customizations": {
-        "vscode": {
-            "extensions": [
-                "jgclark.vscode-todo-highlight",
-                "esbenp.prettier-vscode"
-            ],
-            "settings": {
-                "workbench.colorTheme": "Default Dark+ Experimental",
-                "editor.fontFamily": "Fira Code",
-                "editor.fontLigatures": true,
-                "editor.letterSpacing": 0.8,
-                "editor.lineHeight": 2,
-                "editor.mouseWheelZoom": true,
-                "editor.autoClosingBrackets": "always",
-                "editor.defaultFormatter": "esbenp.prettier-vscode",
-                "editor.formatOnSave": true,
-                "editor.stickyScroll.enabled": true,
-                "editor.renderWhitespace": "all",
-                "editor.tokenColorCustomizations": {
-                    "textMateRules": [
-                        {
-                            "scope": "comment",
-                            "settings": {
-                                "fontStyle": "italic bold"
-                            }
-                        }
-                    ]
-                },
-                "workbench.colorCustomizations": {
-                    "tab.inactiveBackground": "#222222",
-                    "tab.activeBackground": "#0D0D0D",
-                    "tab.inactiveForeground": "#666666",
-                    "tab.hoverBackground": "#1111117f",
-                    "terminal.selectionBackground": "#FF9666",
-                    "terminal.selectionForeground": "#000000"
-                },
-                "terminal.integrated.defaultProfile.windows": "Command Prompt",
-                "typescript.updateImportsOnFileMove.enabled": "always",
-                "todohighlight.keywords": [
-                    {
-                        "text": "HEAD:",
-                        "backgroundColor": "#38CC77",
-                        "color": "#000000"
-                    },
-                    {
-                        "text": "TODO:",
-                        "backgroundColor": "#FF6D2A",
-                        "color": "#000000"
-                    },
-                    {
-                        "text": "[+]",
-                        "backgroundColor": "#DA241E",
-                        "color": "#000000"
-                    },
-                    {
-                        "text": "[-]",
-                        "backgroundColor": "#0DBD59",
-                        "color": "#000000"
-                    },
-                    {
-                        "text": "IDEA:",
-                        "backgroundColor": "#66FFEB",
-                        "color": "#000000"
-                    },
-                    {
-                        "text": "NOTE:",
-                        "backgroundColor": "#F4BE2C",
-                        "color": "#000"
-                    }
-                ],
-                "workbench.startupEditor": "none"
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "customizations": {
+    "vscode": {
+      "extensions": ["jgclark.vscode-todo-highlight", "esbenp.prettier-vscode"],
+      "settings": {
+        "files.autoSave": "off",
+        "editor.tabSize": 2,
+        "workbench.colorTheme": "Default Dark+ Experimental",
+        "editor.fontFamily": "Fira Code",
+        "editor.fontLigatures": true,
+        "editor.letterSpacing": 0.8,
+        "editor.lineHeight": 2,
+        "editor.mouseWheelZoom": true,
+        "editor.autoClosingBrackets": "always",
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+        "editor.stickyScroll.enabled": true,
+        "editor.renderWhitespace": "all",
+        "editor.tokenColorCustomizations": {
+          "textMateRules": [
+            {
+              "scope": "comment",
+              "settings": {
+                "fontStyle": "italic bold"
+              }
             }
-        }
+          ]
+        },
+        "workbench.colorCustomizations": {
+          "tab.inactiveBackground": "#222222",
+          "tab.activeBackground": "#0D0D0D",
+          "tab.inactiveForeground": "#666666",
+          "tab.hoverBackground": "#1111117f",
+          "terminal.selectionBackground": "#FF9666",
+          "terminal.selectionForeground": "#000000"
+        },
+        "terminal.integrated.defaultProfile.windows": "Command Prompt",
+        "typescript.updateImportsOnFileMove.enabled": "always",
+        "todohighlight.keywords": [
+          {
+            "text": "HEAD:",
+            "backgroundColor": "#38CC77",
+            "color": "#000000"
+          },
+          {
+            "text": "TODO:",
+            "backgroundColor": "#FF6D2A",
+            "color": "#000000"
+          },
+          {
+            "text": "[+]",
+            "backgroundColor": "#DA241E",
+            "color": "#000000"
+          },
+          {
+            "text": "[-]",
+            "backgroundColor": "#0DBD59",
+            "color": "#000000"
+          },
+          {
+            "text": "IDEA:",
+            "backgroundColor": "#66FFEB",
+            "color": "#000000"
+          },
+          {
+            "text": "NOTE:",
+            "backgroundColor": "#F4BE2C",
+            "color": "#000"
+          }
+        ],
+        "workbench.startupEditor": "none"
+      }
     }
+  }
 }
