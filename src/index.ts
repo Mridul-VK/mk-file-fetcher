@@ -1,6 +1,6 @@
 import * as fs from "fs";
 
-export default class Fetcher {
+export class Fetcher {
   public static getFiles(dir: string, ext: string): string[] {
     let commandFiles: string[] = [];
 

@@ -21,7 +21,7 @@ $ yarn add mk-file-fetcher
 Using this is very simple. The package has just one function so just import it and use it
 
 ```javascript
-import Fetcher from "mk-file-fetcher";
+import { Fetcher } from "mk-file-fetcher";
 
 const files = Fetcher.getFiles("directory-name", ".js");
 
