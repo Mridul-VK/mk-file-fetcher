@@ -21,9 +21,9 @@ $ yarn add mk-file-fetcher
 Using this is very simple. The package has just one function so just import it and use it
 
 ```javascript
-import getFiles from "mk-file-fetcher";
+import Fetcher from "mk-file-fetcher";
 
-const files = getFiles("directory-name", ".js");
+const files = Fetcher.getFiles("directory-name", ".js");
 
 console.log(files);
 // output --> ["directory-name/file1.js", "directory-name/sub-directory/file2.js",...]
@@ -32,7 +32,7 @@ console.log(files);
 You can provide relative paths to the folder too.
 
 ```javascript
-const files = getFiles("../../big-folder/subfolder", ".js");
+const files = Fetcher.getFiles("../../big-folder/subfolder", ".js");
 
 console.log(files);
 // output --> ["../../big-folder/subfolder/file1.js", "../../big-folder/subfolder/sub-directory/file2.js",...]

@@ -1,7 +1,7 @@
 import * as fs from "fs";
 
 export default class Fetcher {
-  getFiles(dir: string, ext: string): string[] {
+  public static getFiles(dir: string, ext: string): string[] {
     let commandFiles: string[] = [];
 
     let contents: fs.Dirent[] = fs.readdirSync(dir, {
